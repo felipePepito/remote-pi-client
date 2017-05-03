@@ -2,6 +2,10 @@
   "name": "remote-pi-client",
   "version": "0.0.0",
   "license": "MIT",
+  "description": "Client Application to Remotely Access Data and Features of the remote-pi Raspberry Pi Application",
+  "keywords": ["Raspberry Pi", "Remote"],
+  "homepage": "https://github.com/felipePepito/remote-pi-client",
+  "contributors": ["Philipp Strobl"],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToggleLightService } from './toggle.light.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+
+  constructor(
+    private toggleLightService : ToggleLightService
+  ) {}
+
+  toggleLight(state: string): void {
+    this.toggleLightService.toggleLight(state);
+
+  }
 }
